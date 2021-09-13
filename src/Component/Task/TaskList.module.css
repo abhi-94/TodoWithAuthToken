@@ -1,0 +1,102 @@
+.Tasks {
+    display: table;
+    margin: 2rem auto;
+    padding: 3px;
+    width: 90%;
+    max-width: 40rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #4b4b4b;
+
+  }
+  
+  .Tasks ul {
+    list-style: none;
+    padding: 1rem;
+  }
+  
+
+  .formcontrol {
+    border: 1px solid #ccc;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    text-decoration-color:black;
+  }
+  .form-control.invalid{
+    color:black;
+    text-decoration: line-through;
+  }
+
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 3rem;
+    border: 1px solid #ececec;
+    background-color: #2a2a2a;
+    color: white;
+    margin-bottom: 0.5rem;
+    border-radius: 12px;
+    align-items:flex-start;
+    justify-content:space-around;
+}
+.error{
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size:xx-large;
+}
+
+.block.invalid{
+  background-color: lightblue;
+  border-color:lightsalmon;
+  border-width: 4px;
+}
+.block button{
+  align-items: flex-end;
+}
+
+.head {
+    text-decoration-color:black;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .button {
+    font: inherit;
+    border: 1px solid #4f005f;
+    background: #4f005f;
+    color: white;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: #741188;
+    border-color: #741188;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .icon{
+    align-self: center;
+    height: 10%;
+    width: 2rem;
+  }
+  
+  .ibutton{
+    align-self: center;
+    background:transparent;
+    width: 100%;
+    margin-top: 0.7rem;
+    margin-bottom: 0;
+    border:transparent
+  }
+
+.descbutton{
+  align-items: left;
+}

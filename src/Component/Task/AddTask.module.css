@@ -1,0 +1,56 @@
+.input {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    padding: 1.4rem;
+    width: 90%;
+    max-width: 18rem;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .input label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input input {
+    font: inherit;
+    
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #ccc;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input input:hover,
+  .input input:focus {
+    outline: none;
+    border-color: #4f005f;
+  }
+  .input div{
+    color: red;
+    font-size: 12px;
+  }
+
+  .input button{
+    align-self: center;
+    margin-left: 20%;
+    margin-top: 1%;
+    margin-bottom: 0.1%;
+    width: 60%;
+    height: 2rem;
+    background-color: rgb(165, 86, 49);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .input button:hover
+  .input button:focus{
+    background-color: rgb(51, 31, 31);
+  }
+  

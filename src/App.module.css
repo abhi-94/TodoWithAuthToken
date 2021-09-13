@@ -1,0 +1,32 @@
+.block{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  margin: auto;
+  width: 60%;
+  min-width: 17rem;
+  border-radius: 12px;
+  background-color: transparent;
+}
+.block button {
+  border-color: #4b4b4b;
+  background-color: purple;
+  color: black;
+  border-radius: 12px;
+  height: 40px;
+  width: 60%;
+  max-width: 15rem;
+  margin: auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.block button:hover {
+  color: whitesmoke;
+  background-color: #2e2d2d;
+}
+.div{
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+}
